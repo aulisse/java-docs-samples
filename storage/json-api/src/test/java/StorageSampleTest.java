@@ -30,7 +30,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class StorageSampleTest {
-  private static final String PROJECT_ID = System.getenv("GOOGLE_CLOUD_PROJECT");
+  private static final String PROJECT_ID = "java-docs-samples-testing";
   private static final String BUCKET = PROJECT_ID;
   private static final String TEST_OBJECT = "storage-sample-test-upload.txt";
 

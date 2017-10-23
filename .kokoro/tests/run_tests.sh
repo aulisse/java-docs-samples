@@ -44,6 +44,7 @@ function TestIt() {
 export GOOGLE_APPLICATION_CREDENTIALS=${KOKORO_GFILE_DIR}/service-acct.json
 export GOOGLE_CLOUD_PROJECT=java-docs-samples-testing
 export PATH=/google-cloud-sdk/bin:$PATH
+source ${KOKORO_GFILE_DIR}/aws-secrets.sh
 
 echo "******** Environment *********"
 env
